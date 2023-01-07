@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 375px;
+    height: 667px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000000;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.insta_logo{
+    display: flex;
+    margin-top: 260px;   
+justify-content: center;
+}
+.h4_from{
+    margin-bottom: 11px;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #767676;
+}
+.meta{
+    display: flex;
+    justify-content: center;
+}
